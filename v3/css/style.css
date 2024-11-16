@@ -18,7 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%),
-  url('./img/front_with_BMW.JPG') center center / cover no-repeat;
+  url('https://shivamhw.me/autotech/v3/img/front_with_BMW.JPG') center center / cover no-repeat;
   color: #fff;
   text-align: center;
 }
