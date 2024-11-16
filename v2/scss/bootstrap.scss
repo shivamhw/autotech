@@ -1,19 +1,9 @@
 /******* Customized Bootstrap ********/
 /* Set the size for all images to be the same */
-.fixed-size {
-    width: 100%; /* Full width of the column */
-    height: 300px; /* Fixed height */
-    overflow: hidden; /* Ensure anything outside the fixed size is hidden */
-}
-
-.btn-outline-danger:hover {
-    color: white !important;
-}
-
-$primary: #D81324;
-$secondary: #0B2154;
-$light: #F2F2F2;
-$dark: #111111;
+$primary: #09b731;
+$secondary: #3b71ee;
+$dark: #000000;
+$light: #111111;
 
 $font-family-base: 'Ubuntu', sans-serif;
 
