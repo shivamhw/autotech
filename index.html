@@ -1,767 +1,368 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>AutoWash - Car Wash Website Template</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+<head>
+  <title>Autotech Customs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
-        
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <meta name="description" content="">
+  <meta name="keywords" content="html, css, javascript, jquery">
+  <meta name="author" content="">
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+  <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+  <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/vendor/aos.css">
+  <link rel="stylesheet" href="css/vendor/animate.min.css">
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Link to the favicon (PNG version) -->
+<link rel="icon" href="./img/icons8-car-100.png" type="image/png">
 
-    <body>
-        <!-- Top Bar Start -->
-        <div class="top-bar">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 col-md-12">
-                        <div class="logo">
-                            <a href="index.html">
-                                <h1>Auto<span>Wash</span></h1>
-                                <!-- <img src="img/logo.jpg" alt="Logo"> -->
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-7 d-none d-lg-block">
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="top-bar-item">
-                                    <div class="top-bar-icon">
-                                        <i class="far fa-clock"></i>
-                                    </div>
-                                    <div class="top-bar-text">
-                                        <h3>Opening Hour</h3>
-                                        <p>Mon - Fri, 8:00 - 9:00</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="top-bar-item">
-                                    <div class="top-bar-icon">
-                                        <i class="fa fa-phone-alt"></i>
-                                    </div>
-                                    <div class="top-bar-text">
-                                        <h3>Call Us</h3>
-                                        <p>+012 345 6789</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="top-bar-item">
-                                    <div class="top-bar-icon">
-                                        <i class="far fa-envelope"></i>
-                                    </div>
-                                    <div class="top-bar-text">
-                                        <h3>Email Us</h3>
-                                        <p>info@example.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css?ts=4234">
+
+</head>
+
+
+<body style="overflow-x: hidden;" data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+
+  <nav class="unslate_co--site-mobile-menu">
+    <div class="close-wrap d-flex">
+      <a href="#" class="d-flex ml-auto js-menu-toggle">
+        <span class="close-label">Close</span>
+        <div class="close-times">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
         </div>
-        <!-- Top Bar End -->
+      </a>
+    </div>
+    <div class="site-mobile-inner"></div>
+  </nav>
 
-        <!-- Nav Bar Start -->
-        <div class="nav-bar">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                    <a href="#" class="navbar-brand">MENU</a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+  <div class="unslate_co--site-wrap">
 
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav mr-auto">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="service.html" class="nav-item nav-link">Service</a>
-                            <a href="price.html" class="nav-item nav-link">Price</a>
-                            <a href="location.html" class="nav-item nav-link">Washing Points</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                                <div class="dropdown-menu">
-                                    <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                    <a href="single.html" class="dropdown-item">Detail Page</a>
-                                    <a href="team.html" class="dropdown-item">Team Member</a>
-                                    <a href="booking.html" class="dropdown-item">Schedule Booking</a>
-                                </div>
-                            </div>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        </div>
-                        <div class="ml-auto">
-                            <a class="btn btn-custom" href="#">Get Appointment</a>
-                        </div>
+    <div class="unslate_co--site-inner">
+
+      <nav class="unslate_co--site-nav site-nav-target">
+
+        <div class="container w-100">
+
+          <div class="row align-items-center justify-content-between text-left">
+            <a style="margin-left: 15px;" href="tel:09575567660" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-whatsapp fa-2x " style="color: #25D366;"></i>
+            </a>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo text-decoration-none">
+
+                <!-- Icons with Text -->
+                <div class="d-flex align-items-center justify-content-center" style="text-transform: none;">
+                  <!-- WhatsApp Icon on the Left -->
+                  <!-- <i class="fab fa-whatsapp me-3  d-none d-lg-block" style="font-size: 2rem; color: #25d366;"></i> -->
+
+                  <!-- Autotech Customs Text -->
+                  <h2 style="font-size: xx-large; font-family: moonhouse;text-transform: none;"
+                    class="m-0 d-none d-lg-block">
+                    AUTOTECH <span style="text-transform: none;">Customs</span>
+                  </h2>
+
+                  <!-- YouTube Icon on the Right -->
+                  <!-- <i class="fab fa-youtube ms-3  d-none d-lg-block" style="font-size: 2rem; color: #FF0000;"></i> -->
+                </div>
+
+                <!-- Smaller Screen Layout -->
+                <h2 class="m-0 d-lg-none">
+                  <div class="text-center" style="text-transform: none;">
+                    <div style="font-size: xx-large; font-family: moonhouse;text-transform: none;"
+                      class="d-flex flex-row align-items-center">
+                      <!-- WhatsApp Icon -->
+
+                      <div style="line-height: 2px; text-transform: none;">
+                        <p style="font-size: xx-large; text-transform: uppercase;">Autotech</p>
+                        <span style="font-size: x-large; text-transform: uppercase;">Customs</span>
+                      </div>
+                      <!-- YouTube Icon -->
                     </div>
-                </nav>
+                  </div>
+                </h2>
+              </a>
             </div>
-        </div>
-        <!-- Nav Bar End -->
+            <a style="margin-right: 15px;" href="https://www.youtube.com/@autotechcustoms9214" target="_blank"
+              rel="noopener noreferrer">
+              <i class=" fab fa-youtube fa-2x" style="color: #FF0000;"></i>
+            </a>
 
+            <!-- <div class="col-md-5 text-right text-lg-left"> -->
+            <!-- <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="index.html#skills-section" class="nav-link">Skills</a></li>
+                <li><a href="index.html#testimonial-section" class="nav-link">Testimonial</a></li>
+                <li><a href="index.html#journal-section" class="nav-link">Journal</a></li>
+                <li><a href="index.html#contact-section" class="nav-link">Contact</a></li>
+              </ul> -->
 
-        <!-- Carousel Start -->
-        <div class="carousel">
-            <div class="container-fluid">
-                <div class="owl-carousel">
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-1.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h3>Washing & Detailing</h3>
-                            <h1>Keep your Car Newer</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac
-                            </p>
-                            <a class="btn btn-custom" href="">Explore More</a>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-2.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h3>Washing & Detailing</h3>
-                            <h1>Quality service for you</h1>
-                            <p>
-                                Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis orci sodales
-                            </p>
-                            <a class="btn btn-custom" href="">Explore More</a>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-3.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h3>Washing & Detailing</h3>
-                            <h1>Exterior & Interior Washing</h1>
-                            <p>
-                                Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula euismod quam
-                            </p>
-                            <a class="btn btn-custom" href="">Explore More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Carousel End -->
-        
+            <!-- <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none"> -->
+            <!-- <li><a href="#" class="js-menu-toggle">Menu</a></li> -->
+            <!-- </ul> -->
 
-        <!-- About Start -->
-        <div class="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-img">
-                            <img src="img/about.jpg" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="section-header text-left">
-                            <p>About Us</p>
-                            <h2>car washing and detailing</h2>
-                        </div>
-                        <div class="about-content">
-                            <p>
-                                Lorem ipsum dolor sit amet elit. In vitae turpis. Donec in hendre dui, vel blandit massa. Ut vestibu suscipi cursus. Cras quis porta nulla, ut placerat risus. Aliquam nec magna eget velit luctus dictum
-                            </p>
-                            <ul>
-                                <li><i class="far fa-check-circle"></i>Seats washing</li>
-                                <li><i class="far fa-check-circle"></i>Vacuum cleaning</li>
-                                <li><i class="far fa-check-circle"></i>Interior wet cleaning</li>
-                                <li><i class="far fa-check-circle"></i>Window wiping</li>
-                            </ul>
-                            <a class="btn btn-custom" href="">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-
-
-        <!-- Service Start -->
-        <div class="service">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>What We Do?</p>
-                    <h2>Premium Washing Services</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-car-wash-1"></i>
-                            <h3>Exterior Washing</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-car-wash"></i>
-                            <h3>Interior Washing</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-vacuum-cleaner"></i>
-                            <h3>Vacuum Cleaning</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-seat"></i>
-                            <h3>Seats Washing</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-car-service"></i>
-                            <h3>Window Wiping</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-car-service-2"></i>
-                            <h3>Wet Cleaning</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-car-wash"></i>
-                            <h3>Oil Changing</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-brush-1"></i>
-                            <h3>Brake Reparing</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Service End -->
-        
-        
-        <!-- Facts Start -->
-        <div class="facts" data-parallax="scroll" data-image-src="img/facts.jpg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="fa fa-map-marker-alt"></i>
-                            <div class="facts-text">
-                                <h3 data-toggle="counter-up">25</h3>
-                                <p>Service Points</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="fa fa-user"></i>
-                            <div class="facts-text">
-                                <h3 data-toggle="counter-up">350</h3>
-                                <p>Engineers & Workers</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="fa fa-users"></i>
-                            <div class="facts-text">
-                                <h3 data-toggle="counter-up">1500</h3>
-                                <p>Happy Clients</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="fa fa-check"></i>
-                            <div class="facts-text">
-                                <h3 data-toggle="counter-up">5000</h3>
-                                <p>Projects Completed</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Facts End -->
-        
-        
-        <!-- Price Start -->
-        <div class="price">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Washing Plan</p>
-                    <h2>Choose Your Plan</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="price-item">
-                            <div class="price-header">
-                                <h3>Basic Cleaning</h3>
-                                <h2><span>$</span><strong>25</strong><span>.99</span></h2>
-                            </div>
-                            <div class="price-body">
-                                <ul>
-                                    <li><i class="far fa-check-circle"></i>Seats Washing</li>
-                                    <li><i class="far fa-check-circle"></i>Vacuum Cleaning</li>
-                                    <li><i class="far fa-check-circle"></i>Exterior Cleaning</li>
-                                    <li><i class="far fa-times-circle"></i>Interior Wet Cleaning</li>
-                                    <li><i class="far fa-times-circle"></i>Window Wiping</li>
-                                </ul>
-                            </div>
-                            <div class="price-footer">
-                                <a class="btn btn-custom" href="">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="price-item featured-item">
-                            <div class="price-header">
-                                <h3>Premium Cleaning</h3>
-                                <h2><span>$</span><strong>35</strong><span>.99</span></h2>
-                            </div>
-                            <div class="price-body">
-                                <ul>
-                                    <li><i class="far fa-check-circle"></i>Seats Washing</li>
-                                    <li><i class="far fa-check-circle"></i>Vacuum Cleaning</li>
-                                    <li><i class="far fa-check-circle"></i>Exterior Cleaning</li>
-                                    <li><i class="far fa-check-circle"></i>Interior Wet Cleaning</li>
-                                    <li><i class="far fa-times-circle"></i>Window Wiping</li>
-                                </ul>
-                            </div>
-                            <div class="price-footer">
-                                <a class="btn btn-custom" href="">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="price-item">
-                            <div class="price-header">
-                                <h3>Complex Cleaning</h3>
-                                <h2><span>$</span><strong>49</strong><span>.99</span></h2>
-                            </div>
-                            <div class="price-body">
-                                <ul>
-                                    <li><i class="far fa-check-circle"></i>Seats Washing</li>
-                                    <li><i class="far fa-check-circle"></i>Vacuum Cleaning</li>
-                                    <li><i class="far fa-check-circle"></i>Exterior Cleaning</li>
-                                    <li><i class="far fa-check-circle"></i>Interior Wet Cleaning</li>
-                                    <li><i class="far fa-check-circle"></i>Window Wiping</li>
-                                </ul>
-                            </div>
-                            <div class="price-footer">
-                                <a class="btn btn-custom" href="">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Price End -->
-        
-        
-        <!-- Location Start -->
-        <div class="location">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7">
-                        <div class="section-header text-left">
-                            <p>Washing Points</p>
-                            <h2>Car Washing & Care Points</h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="location-item">
-                                    <i class="fa fa-map-marker-alt"></i>
-                                    <div class="location-text">
-                                        <h3>Car Washing Point</h3>
-                                        <p>123 Street, New York, USA</p>
-                                        <p><strong>Call:</strong>+012 345 6789</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="location-item">
-                                    <i class="fa fa-map-marker-alt"></i>
-                                    <div class="location-text">
-                                        <h3>Car Washing Point</h3>
-                                        <p>123 Street, New York, USA</p>
-                                        <p><strong>Call:</strong>+012 345 6789</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="location-item">
-                                    <i class="fa fa-map-marker-alt"></i>
-                                    <div class="location-text">
-                                        <h3>Car Washing Point</h3>
-                                        <p>123 Street, New York, USA</p>
-                                        <p><strong>Call:</strong>+012 345 6789</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="location-item">
-                                    <i class="fa fa-map-marker-alt"></i>
-                                    <div class="location-text">
-                                        <h3>Car Washing Point</h3>
-                                        <p>123 Street, New York, USA</p>
-                                        <p><strong>Call:</strong>+012 345 6789</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="location-form">
-                            <h3>Request for a car wash</h3>
-                            <form>
-                                <div class="control-group">
-                                    <input type="text" class="form-control" placeholder="Name" required="required" />
-                                </div>
-                                <div class="control-group">
-                                    <input type="email" class="form-control" placeholder="Email" required="required" />
-                                </div>
-                                <div class="control-group">
-                                    <textarea class="form-control" placeholder="Description" required="required"></textarea>
-                                </div>
-                                <div>
-                                    <button class="btn btn-custom" type="submit">Send Request</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Location End -->
-
-
-        <!-- Team Start -->
-        <div class="team">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Meet Our Team</p>
-                    <h2>Our Engineers & Workers</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-1.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Donald John</h2>
-                                <p>Engineer</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Adam Phillips</h2>
-                                <p>Engineer</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Thomas Olsen</h2>
-                                <p>Worker</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>James Alien</h2>
-                                <p>Worker</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
-        
-        
-        <!-- Testimonial Start -->
-        <div class="testimonial">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Testimonial</p>
-                    <h2>What our clients say</h2>
-                </div>
-                <div class="owl-carousel testimonials-carousel">
-                    <div class="testimonial-item">
-                        <img src="img/testimonial-1.jpg" alt="Image">
-                        <div class="testimonial-text">
-                            <h3>Client Name</h3>
-                            <h4>Profession</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor auctor gravid
-                            </p>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <img src="img/testimonial-2.jpg" alt="Image">
-                        <div class="testimonial-text">
-                            <h3>Client Name</h3>
-                            <h4>Profession</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor auctor gravid
-                            </p>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <img src="img/testimonial-3.jpg" alt="Image">
-                        <div class="testimonial-text">
-                            <h3>Client Name</h3>
-                            <h4>Profession</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor auctor gravid
-                            </p>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <img src="img/testimonial-4.jpg" alt="Image">
-                        <div class="testimonial-text">
-                            <h3>Client Name</h3>
-                            <h4>Profession</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor auctor gravid
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
-
-
-        <!-- Blog Start -->
-        <div class="blog">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Our Blog</p>
-                    <h2>Latest news & articles</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog-1.jpg" alt="Image">
-                                <div class="meta-date">
-                                    <span>01</span>
-                                    <strong>Jan</strong>
-                                    <span>2045</span>
-                                </div>
-                            </div>
-                            <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc  augue velit metus congue eget semper
-                                </p>
-                            </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
-                                <p><i class="fa fa-folder"></i><a href="">Web Design</a></p>
-                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog-2.jpg" alt="Image">
-                                <div class="meta-date">
-                                    <span>01</span>
-                                    <strong>Jan</strong>
-                                    <span>2045</span>
-                                </div>
-                            </div>
-                            <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc  augue velit metus congue eget semper
-                                </p>
-                            </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
-                                <p><i class="fa fa-folder"></i><a href="">Web Design</a></p>
-                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog-3.jpg" alt="Image">
-                                <div class="meta-date">
-                                    <span>01</span>
-                                    <strong>Jan</strong>
-                                    <span>2045</span>
-                                </div>
-                            </div>
-                            <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc  augue velit metus congue eget semper
-                                </p>
-                            </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
-                                <p><i class="fa fa-folder"></i><a href="">Web Design</a></p>
-                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Blog End -->
-
-
-        <!-- Footer Start -->
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-contact">
-                            <h2>Get In Touch</h2>
-                            <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                            <p><i class="fa fa-envelope"></i>info@example.com</p>
-                            <div class="footer-social">
-                                <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn" href=""><i class="fab fa-youtube"></i></a>
-                                <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-link">
-                            <h2>Popular Links</h2>
-                            <a href="">About Us</a>
-                            <a href="">Contact Us</a>
-                            <a href="">Our Service</a>
-                            <a href="">Service Points</a>
-                            <a href="">Pricing Plan</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-link">
-                            <h2>Useful Links</h2>
-                            <a href="">Terms of use</a>
-                            <a href="">Privacy policy</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-newsletter">
-                            <h2>Newsletter</h2>
-                            <form>
-                                <input class="form-control" placeholder="Full Name">
-                                <input class="form-control" placeholder="Email">
-                                <button class="btn btn-custom">Submit</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container copyright">
-                <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved. Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
-            </div>
-        </div>
-        <!-- Footer End -->
-        
-        <!-- Back to top button -->
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
-        <!-- Pre Loader -->
-        <div id="loader" class="show">
-            <div class="loader"></div>
+            <!-- </div> -->
+          </div>
         </div>
 
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+      </nav>
+      <!-- END nav -->
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+      <div class="cover-v1 gradient-bottom-black jarallax">
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-md-10 mx-auto text-center">
+              <!-- <h1 class="heading" data-aos="fade-up">Quality Automobile Servicing</h1> -->
+
+              <!-- Big Red Button -->
+               <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJIEwEI2gsEAw-YzRWnl1C2EVtP_bDXD9chydjTiiw4vYQGQ/viewform" target="_blank" style="text-decoration: none;">
+              <button class="btn btn-danger btn-lg px-5 py-3" style="font-size: medium;">
+                Service Enquiry
+              </button>
+</a>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+      <!-- END .cover-v1 -->
+
+      <div class="container">
+        <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
+          <div class="portfolio-single-inner">
+            <h2 class="heading-portfolio-single-h2">SERVICES OFFERED</h2>
+            <div class="row gutter-v4 align-items-stretch mb-5">
+              <div class="col-sm-6 col-md-6 col-lg-8 blog-post-entry">
+                <a href="./img/car_pending_booth.JPG" class="grid-item blog-item w-100 h-100" data-fancybox="gal"
+                  data-caption="Best Denting/Painting Work in City">
+                  <div class="overlay">
+                    <div class="portfolio-item-content">
+                      <h3>Best Denting/Painting Work in City</h3>
+                    </div>
+                  </div>
+                  <img src="./img/car_pending_booth.JPG" class="lazyload" alt="Image" />
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-8 blog-post-entry">
+                <a href="./img/car_up.jpeg" class="grid-item blog-item w-100 h-100" data-fancybox="gal"
+                  data-caption="Full Body Inspection and Diagnostic Test">
+                  <div class="overlay">
+                    <div class="portfolio-item-content">
+                      <h3>Full Body Inspection and Diagnostic Test</h3>
+                    </div>
+                  </div>
+                  <img src="./img/car_up.jpeg" class="lazyload" alt="Image" />
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-8 blog-post-entry">
+              <a href="./img/velding.jpeg" class="grid-item blog-item w-100 h-100" data-fancybox="gal"
+                data-caption="Accidental Repairs with Insurance Claim Support">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>Accidental Repairs with Insurance Claim Support</h3>
+                  </div>
+                </div>
+                <img src="./img/velding.jpeg" class="lazyload" alt="Image" />
+              </a>
+            </div>
+              <div class="col-sm-6 col-md-6 col-lg-8 blog-post-entry">
+            <a href="./img/spray.jpeg" class="grid-item blog-item w-100 h-100" data-fancybox="gal"
+              data-caption="Bodywork and Alignments">
+              <div class="overlay">
+                <div class="portfolio-item-content">
+                  <h3>Bodywork and Alignments</h3>
+                </div>
+              </div>
+              <img src="./img/spray.jpeg" class="lazyload" alt="Image" />
+            </a>
+          </div>
+        </div>
+
+
+
+        <div class="unslate_co--section" id="testimonial-section">
+          <div class="container">
+            <div class="section-heading-wrap text-center mb-5">
+              <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Our Happy Clients</span></h2>
+              <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+            </div>
+          </div>
+
+          <div class="owl-carousel testimonial-slider" data-aos="fade-up">
+            <div>
+              <div class="testimonial-v1">
+                <div class="testimonial-inner-bg">
+                  <span class="quote">&ldquo;</span>
+                  <blockquote>
+                    My Hyundai Creta's accidental repair was done at Autotech Customs and hands down
+                    the service provided by the team is impeccable. The dent-paint job of my car's fender and
+                    boot are remarkable and it is as good as new now. Headlights and front bumper was replaced
+                    and they used all the brand genuine parts. Overall service at Autotech Customs has been
+                    fabulous. Thank you for a great experience.
+                  </blockquote>
+                </div>
+
+                <div class="testimonial-author-info">
+                  <img
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjU-BbAzdAyRDUOeNb2fiAQluv605XUcP6q5pWFgiLKyYjASuLBn=w120-h120-p-rp-mo-br100"
+                    alt="Image">
+                  <h3>Rajeev Kumar</h3>
+                  <span class="d-block position">Hyundai Creta</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div>
+              <div class="testimonial-v1">
+                <div class="testimonial-inner-bg">
+                  <span class="quote">&ldquo;</span>
+                  <blockquote>
+                    Found the work as per my expectations. Minor scratches on my side car and they did the job with perfection. Definetly recommended. No mismatch in color.
+                  </blockquote>
+                </div>
+                <div class="testimonial-author-info">
+                  <img
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjXWVdxw5xXDBOD870zl52odf6AAXQfVJG8RJrTQcJzbtwdQC8w=w120-h120-p-rp-mo-br100"
+                    alt="Image">
+                  <h3>Alim Khan</h3>
+                  <!-- <span class="d-block position">Hyundai Nios</span> -->
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="testimonial-v1">
+                <div class="testimonial-inner-bg">
+                  <span class="quote">&ldquo;</span>
+                  <blockquote>
+                    My swift dzire gear box problem was solved. Maruti genuine parts were used. They even gave me discount on labour
+                </div>
+                <div class="testimonial-author-info">
+                  <img
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjXSYJAKMNTcWIcITIAq1K8an-RSysgMma1pcDpRoJ48fDVXI3w=w120-h120-p-rp-mo-br100"
+                    alt="Image">
+                  <h3>Sanjay Sharma</h3>
+                  <span class="d-block position">Swift</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="testimonial-v1">
+                <div class="testimonial-inner-bg">
+                  <span class="quote">&ldquo;</span>
+                  <blockquote>
+                    My fortuner got repaired, they used genuine Toyota headlight, thank you
+                  </blockquote>
+                </div>
+
+                <div class="testimonial-author-info">
+                  <img
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjW_OSrVZx-p9FH8UGVUEwwWewzEPAtxisjOlsYAkzmS8Tz9N54lLw=w120-h120-p-rp-mo-br100"
+                    alt="Image">
+                  <h3>Vijay Tomar</h3>
+                  <span class="d-block position">Toyota Fortuner</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <footer class="unslate_co--footer unslate_co--section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="container py-5">
+          <div class="row g-5 ">
+            <div class="col-lg-3 col-md-6 mb-3">
+              <h4 class="text-light mb-4">Services</h4>
+              <div class="text-light" href="">Engine Servicing</div>
+              <div class="text-light" href="">Diagnostic Test</div>
+              <div class="text-light" href="">Tires Replacement</div>
+              <div class="text-light" href="">Oil Changing</div>
+              <div class="text-light" href="">AC Wiring</div>
+              <div class="text-light" href="">Insurance Claims</div>
+              <div class="text-light" href="">Dent Work</div>
+              <div class="text-light" href="">Body Work</div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-light">
+              <h4 class="text-light mb-4">Address</h4>
+              <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Sachin Tendulkar Extention Marg, near DB
+                City, Thatipur, Gwalior, Madhya Pradesh 475002</p>
+              <a class="text-light" href="tel:09575567660" target="_blank" rel="noopener noreferrer"> <i
+                  class="fab fa-whatsapp  " style="color: #25D366;"></i> 095755 67660 </a>
+              <iframe class="mt-3"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.8602654423553!2d78.20992167541512!3d26.201223477078354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c330ee88a4af%3A0xed9a88bb31e47cfa!2sAutotech%20Customs!5e0!3m2!1sen!2sin!4v1727461541905!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+              <!-- <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p> -->
+              <div class="d-flex pt-2">
+                <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
+                <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a> -->
+
+                <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4 class="text-light mb-4">Opening Hours</h4>
+              <h6 class="text-light">Monday - Friday:</h6>
+              <p class="mb-4">09.00 AM - 09.00 PM</p>
+              <h6 class="text-light">Saturday - Sunday:</h6>
+              <p class="mb-0">09.00 AM - 12.00 PM</p>
+            </div>
+
+
+            <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div> -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="copyright">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; <a class="border-bottom" href="#">Autotech Customs</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </div>
+
+  <!-- Loader -->
+  <div id="unslate_co--overlayer"></div>
+  <div class="site-loader-wrap">
+    <div class="site-loader"></div>
+  </div>
+
+  <script src="js/scripts-dist.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
 </html>
