@@ -10,7 +10,35 @@ body {
   position: relative;
 }
 
+.float_small{
+	position:fixed;
+	width:59%;
+	bottom:40px;
+	right:40px;
+	background-color: #dc3545;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #646363a1;
+  z-index: 50;
+}
 
+.float{
+	position:fixed;
+	width:13%;
+	bottom:40px;
+	right:40px;
+	background-color: #dc3545;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #646363a1;
+  z-index: 50;
+}
+
+.my-float{
+	margin-top:22px;
+}
 .cover-v1 {
   position: relative;
   height: 100vh;
@@ -759,7 +787,7 @@ a, a:hover {
 
 .cover-v1 .heading {
   font-size: 5rem;
-  font-weight: 900;
+  font-weight: 500;
   color: #fff;
 }
 
